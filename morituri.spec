@@ -17,6 +17,7 @@ Requires:       gstreamer0.10-plugins-good >= 0.10.16
 Requires:       gstreamer0.10-python
 Requires:       python-musicbrainz2
 Requires:       python-pycdio
+Requires:       python-pkg-resources
 
 %description
 Morituri is a CD ripper that aims for accuracy over speed. Its features 
