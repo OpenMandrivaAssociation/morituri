@@ -3,7 +3,7 @@ Version:        0.1.0
 Release:        %mkrel 1
 Summary:        CD ripper aiming for accuracy over speed
 Source:         http://thomas.apestaart.org/download/morituri/%{name}-%{version}.tar.bz2
-URL:            http://thomas.apestaart.org/thomas/trac/
+URL:            http://thomas.apestaart.org/morituri/trac
 License:        GPLv2
 Group:          Sound
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
