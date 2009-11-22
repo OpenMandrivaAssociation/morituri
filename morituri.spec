@@ -1,6 +1,6 @@
 Name:           morituri
 Version:        0.1.0
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        CD ripper aiming for accuracy over speed
 Source:         http://thomas.apestaart.org/download/morituri/%{name}-%{version}.tar.bz2
 URL:            http://thomas.apestaart.org/morituri/trac
