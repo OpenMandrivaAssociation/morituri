@@ -1,5 +1,5 @@
 Name:           morituri
-Version:        0.1.0
+Version:        0.1.1
 Release:        %mkrel 2
 Summary:        CD ripper aiming for accuracy over speed
 Source:         http://thomas.apestaart.org/download/morituri/%{name}-%{version}.tar.bz2
@@ -32,7 +32,7 @@ a command line client.
 %prep
 
 %setup -q
-%configure --sysconfdir=%{_sysconfdir}
+%configure2_5x --sysconfdir=%{_sysconfdir}
 
 %build
 
@@ -47,6 +47,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc README morituri.doap NEWS RELEASE ChangeLog
 %{_bindir}/rip
-#%{_mandir}/man1/rip.1*
+%{_mandir}/man1/rip.1*
 %{py_puresitedir}/morituri
 %{_sysconfdir}/bash_completion.d/rip
