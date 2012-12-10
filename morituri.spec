@@ -50,3 +50,20 @@ rm -rf %{buildroot}
 %{_mandir}/man1/rip.1*
 %{py_puresitedir}/morituri
 %{_sysconfdir}/bash_completion.d/rip
+
+
+%changelog
+* Sat Apr 17 2010 Frederik Himpe <fhimpe@mandriva.org> 0.1.1-2mdv2010.1
++ Revision: 535787
+- Update to new version 0.1.1
+
+* Sun Nov 22 2009 Christophe Fergeau <cfergeau@mandriva.com> 0.1.0-2mdv2010.1
++ Revision: 468841
+- fix morituri home page URL
+- add missing python package to Requires:
+
+* Sat Sep 26 2009 Frederik Himpe <fhimpe@mandriva.org> 0.1.0-1mdv2010.0
++ Revision: 449648
+- Import package in Mandriva, based on upstream (Fedora) SRPM
+- create morituri
+
